@@ -12,11 +12,11 @@ vault_wordpress_sites:
     env:
       db_password: 6fVCeFfMbC4dDCrDFqrp{jgP
       # Generate your keys here: https://api.wordpress.org/secret-key/1.1/salt/
-      auth_key: ",3C2H-qvQ}kKE]*PH%ZTG3rOx|vDf15Gg:&P2L=/+5 gJV,kS]sGe|-Bsym$/l),'"
-      secure_auth_key: "-=Jvg)t6-cB0NV=LVMI=.e{|*-o9G&65&iy3 6-Wa*N7Hc}xlqt?D){Phl+,GJ9)"
-      logged_in_key: "VHFu4;|zrK6>9QHdqR5~3rJX+4Wj|y,X~|?GI><<WiWz92[_!%dR$eZJK|gUNzBk"
-      nonce_key: "d:?uJIMKo2K@o-1VO`sI]+Y+,g-g,AOfv.1e(4$vX]TJk6r=X6nSc~)uJ]})ZT5p"
-      auth_salt: "n~kq7.6~}RZ:P]cDyL,(t))m}qd<cziQ-BpPBLf8R2r-1 pSLPV/L}M?{A^%U.Mg"
-      secure_auth_salt: "=jVith+5wWr:4jl.H3{E$q+9P5)>IzzSbYCDGTMM6emck,1?<|{#-@Mv?n/4?n8*"
-      logged_in_salt: "L[bf_k }N,v%kHB;NlWll3u[hgX,~,`#FT--|5c/11:!v+peNiKa<YkFmL%~G+,T"
-      nonce_salt: "HKvgGU2CcM!@Q_B0{b2@f.d|aIi#pLMqAZ(.n k)@(!gfyz8|E+?X@.N||2{(joH"
+      auth_key: ":zG@4+6-f-60ame_}jG*&_8^m+S)pQl*wL)i3_ NEPR,~p8@n ru}8I@s4-Fku20"
+      secure_auth_key: "jQV3}@O6-,!h)X|*/uI-ZF$LgT`y9>UdnhvZAVs:D~Rqq=12ti/4C)Td+tAUGibm"
+      logged_in_key: "b,Q-g;%#|_V{].=ft^:5sI;cP5t[3V;UhJ >#b<nj bvg!y?M^ai9vEx;}y,.:$0"
+      nonce_key: "|)AU[*GH@/2[;.zByJ|AzX4nb5]u]pMbP32Fq&P|[@G7-=jcREZ-20S?u7]e@`gd"
+      auth_salt: "ZzLN4jj{7tdVWf4 h1~^ZB|Jm5gXC@L}-|/Mpn9Y0HeRStAg2z,EG6s0+p7jV*LG"
+      secure_auth_salt: "-!|Vha0A#=L18{?!r*~+p~)z.p1}:)QyC1U9QCJl``{,~cZ+6X+|(3&o.PUf1e7="
+      logged_in_salt: "|s_WxeHiS_Hok?9C**ETH-uutx*>5VE1100 2`y$+?P|T$;Llp:0_kF}qks{,W<F"
+      nonce_salt: "6|6$S)*<>)4|O64v,e$2C|nMCvM2|6EkJi<^|>!-F^@VJm2t&g3Iro6_Jk=gq<?|"
