@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ed9c52176d28179c8c8b844d523e37ff",
-    "content-hash": "39dc755e04953af14882201d674c6b6f",
+    "hash": "0b39333716add645ab41fc49393372d1",
+    "content-hash": "cd695238ac2bf3e3e4aa713f454a1aee",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.25",
+            "version": "v1.0.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e"
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
-                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
                 "shasum": ""
             },
             "require": {
@@ -40,8 +40,8 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Composer\\Installers\\": "src/Composer/Installers"
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -56,14 +56,12 @@
                 }
             ],
             "description": "A multi-framework Composer library installer",
-            "homepage": "https://composer.github.io/installers/",
+            "homepage": "http://composer.github.com/installers/",
             "keywords": [
                 "Craft",
                 "Dolibarr",
                 "Hurad",
-                "ImageCMS",
                 "MODX Evo",
-                "Mautic",
                 "OXID",
                 "SMF",
                 "Thelia",
@@ -105,7 +103,86 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-04-13 19:46:30"
+            "time": "2016-01-27 12:54:22"
+        },
+        {
+            "name": "deliciousbrains/wp-amazon-s3-and-cloudfront",
+            "version": "0.9.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/deliciousbrains/wp-amazon-s3-and-cloudfront.git",
+                "reference": "e421de54dec834d7e41fe8cd3992c300834db6f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/deliciousbrains/wp-amazon-s3-and-cloudfront/zipball/e421de54dec834d7e41fe8cd3992c300834db6f3",
+                "reference": "e421de54dec834d7e41fe8cd3992c300834db6f3",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv3"
+            ],
+            "description": "Automatically copies media uploads to Amazon S3 for delivery. Optionally configure Amazon CloudFront for even faster delivery.",
+            "homepage": "https://github.com/deliciousbrains/wp-amazon-s3-and-cloudfront",
+            "keywords": [
+                "amazon-web-services",
+                "cdn",
+                "cloudfront",
+                "plugin",
+                "s3"
+            ],
+            "time": "2016-02-03 13:25:33"
+        },
+        {
+            "name": "deliciousbrains/wp-amazon-web-services",
+            "version": "0.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/deliciousbrains/wp-amazon-web-services.git",
+                "reference": "3f6ae90cd93e17214fabbdeff840cc80c962a3b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/deliciousbrains/wp-amazon-web-services/zipball/3f6ae90cd93e17214fabbdeff840cc80c962a3b5",
+                "reference": "3f6ae90cd93e17214fabbdeff840cc80c962a3b5",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv3"
+            ],
+            "description": "Houses the Amazon Web Services (AWS) PHP libraries and manages access keys. Required by other AWS plugins.",
+            "homepage": "https://github.com/deliciousbrains/wp-amazon-web-services",
+            "keywords": [
+                "amazon",
+                "amazon-web-services",
+                "aws",
+                "plugin"
+            ],
+            "time": "2016-03-07 16:44:44"
+        },
+        {
+            "name": "deliciousbrains/wp-migrate-db-pro",
+            "version": "1.5.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://deliciousbrains.com/dl/wp-migrate-db-pro-latest.zip?licence_key=f44b9123-7f96-4323-abbb-a2ad5dde2096&site_url=dianaweymar.dev",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "v1.0.23"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -382,6 +459,26 @@
                 "environment"
             ],
             "time": "2016-04-15 10:48:49"
+        },
+        {
+            "name": "wpackagist-plugin/imsanity",
+            "version": "2.3.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/imsanity/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/imsanity.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/imsanity/"
         }
     ],
     "packages-dev": [

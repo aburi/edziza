@@ -30,6 +30,21 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "deliciousbrains/wp-migrate-db-pro",
+        "type": "wordpress-plugin",
+        "version": "1.5.3",
+        "dist": {
+          "type": "zip",
+          "url": "https://deliciousbrains.com/dl/wp-migrate-db-pro-latest.zip?licence_key=f44b9123-7f96-4323-abbb-a2ad5dde2096&site_url=dianaweymar.dev"
+        },
+        "require": {
+          "composer/installers": "v1.0.23"
+        }
+      }
     }
   ],
   "require": {
@@ -39,7 +54,11 @@
     "johnpbloch/wordpress": "4.5.2",
     "oscarotero/env": "^1.0.2",
     "roots/wp-password-bcrypt": "1.0.0",
-    "roots/soil": "3.7.0"
+    "roots/soil": "3.7.0",
+    "wpackagist-plugin/imsanity": "2.3.6",
+    "deliciousbrains/wp-amazon-web-services": "^0.3.4",
+    "deliciousbrains/wp-amazon-s3-and-cloudfront": "^0.9.11",
+    "deliciousbrains/wp-migrate-db-pro": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
