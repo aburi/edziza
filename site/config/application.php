@@ -81,3 +81,9 @@ define('DISALLOW_FILE_EDIT', true);
 if (!defined('ABSPATH')) {
     define('ABSPATH', $webroot_dir . '/wp/');
 }
+
+/**
+ * AWS Keys
+ */
+define( 'DBI_AWS_ACCESS_KEY_ID', 'AKIAJIVWTONUV2SEDK3Q' );
+define( 'DBI_AWS_SECRET_ACCESS_KEY', '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' );

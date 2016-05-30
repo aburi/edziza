@@ -56,8 +56,8 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/soil": "3.7.0",
     "wpackagist-plugin/imsanity": "2.3.6",
-    "deliciousbrains/wp-amazon-web-services": "^0.3.4",
-    "deliciousbrains/wp-amazon-s3-and-cloudfront": "^0.9.11",
+    "deliciousbrains/wp-amazon-web-services": "^0.3.5",
+    "deliciousbrains/wp-amazon-s3-and-cloudfront": "^1.0.3",
     "deliciousbrains/wp-migrate-db-pro": "*"
   },
   "require-dev": {

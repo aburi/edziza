@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0b39333716add645ab41fc49393372d1",
-    "content-hash": "cd695238ac2bf3e3e4aa713f454a1aee",
+    "hash": "16c34402a0f57052417dbdf02635ba9a",
+    "content-hash": "2f2b1ea57b80f3a554c90ae38b8b1509",
     "packages": [
         {
             "name": "composer/installers",
@@ -107,16 +107,16 @@
         },
         {
             "name": "deliciousbrains/wp-amazon-s3-and-cloudfront",
-            "version": "0.9.12",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deliciousbrains/wp-amazon-s3-and-cloudfront.git",
-                "reference": "e421de54dec834d7e41fe8cd3992c300834db6f3"
+                "reference": "1a08516aec4bf7e46bfbbc0a5ff62cfbe3b2af51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deliciousbrains/wp-amazon-s3-and-cloudfront/zipball/e421de54dec834d7e41fe8cd3992c300834db6f3",
-                "reference": "e421de54dec834d7e41fe8cd3992c300834db6f3",
+                "url": "https://api.github.com/repos/deliciousbrains/wp-amazon-s3-and-cloudfront/zipball/1a08516aec4bf7e46bfbbc0a5ff62cfbe3b2af51",
+                "reference": "1a08516aec4bf7e46bfbbc0a5ff62cfbe3b2af51",
                 "shasum": ""
             },
             "require": {
@@ -136,7 +136,7 @@
                 "plugin",
                 "s3"
             ],
-            "time": "2016-02-03 13:25:33"
+            "time": "2016-03-23 14:09:14"
         },
         {
             "name": "deliciousbrains/wp-amazon-web-services",
