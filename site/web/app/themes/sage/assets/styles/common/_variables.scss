@@ -1,9 +1,30 @@
+// *************************************
+//
+//   Variables
+//
+// *************************************
+
+// -------------------------------------
+//   Bootstrap overrides (3.3.5)
+// -------------------------------------
+
 // Glyphicons font path
-$icon-font-path:        "../fonts/";
+$icon-font-path: "../fonts/";
 
 // Grid settings
-$main-sm-columns:       12;
-$sidebar-sm-columns:    4;
+$main-sm-columns: 12;
+$sidebar-sm-columns: 4;
 
 // Colors
-$brand-primary:         #27ae60;
+$brand-primary: #27ae60;
+
+// ----- Options ----- //
+
+$enable-flex: true;
+
+// ----- Components ----- //
+
+//$border-radius: .15rem;
+//$border-radius-lg: .18rem;
+// $border-radius-sm:       .2rem !default;
+

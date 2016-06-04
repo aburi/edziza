@@ -4,6 +4,16 @@
 //
 // *************************************
 
+.navbar-brand {
+  line-height: 1;
+  margin: 0;
+  position: relative;
+  top: -10px;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
 // -------------------------------------
 //   wp_nav_menu()
 // -------------------------------------
@@ -14,22 +24,41 @@
 
     .menu-item {
       @extend .nav-item;
+
+      // dropdown container
+
+      &-has-children {
+        @extend .dropdown;
+
+        &:hover {
+          @extend .open;
+        }
+      }
+
     }
 
     a {
-      // @extend .nav-link;
-      margin: 0 5px;
-      text-decoration: none;
+      //@extend .nav-link;
 
       @include media-breakpoint-down(sm) {
-        font-size: 0.9rem;
       }
 
     }
 
     .active a {
       @extend .active;
-      color: $gray;
+      //color: $gray;
+    }
+
+  }
+
+  // ----- dropdown menus ----- //
+
+  .sub-menu {
+    @extend .dropdown-menu;
+
+    .menu-item {
+      margin-left: 1rem;
     }
 
   }
