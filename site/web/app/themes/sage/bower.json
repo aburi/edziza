@@ -25,7 +25,6 @@
         "./scss/_buttons.scss",
         "./scss/_nav.scss",
         "./scss/_navbar.scss",
-        "./scss/_breadcrumb.scss",
         "./scss/_media.scss",
         "./scss/_utilities.scss",
         "./scss/_utilities-background.scss",

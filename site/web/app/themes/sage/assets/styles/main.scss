@@ -1,5 +1,4 @@
 @import "common/variables";
-
 // Automatically injected Bower dependencies via wiredep (never manually edit this block)
 // bower:scss
 @import "../../bower_components/bootstrap/scss/_variables.scss";
@@ -15,15 +14,14 @@
 @import "../../bower_components/bootstrap/scss/_buttons.scss";
 @import "../../bower_components/bootstrap/scss/_nav.scss";
 @import "../../bower_components/bootstrap/scss/_navbar.scss";
-@import "../../bower_components/bootstrap/scss/_breadcrumb.scss";
 @import "../../bower_components/bootstrap/scss/_media.scss";
 @import "../../bower_components/bootstrap/scss/_utilities.scss";
 @import "../../bower_components/bootstrap/scss/_utilities-background.scss";
 @import "../../bower_components/bootstrap/scss/_utilities-spacing.scss";
 @import "../../bower_components/bootstrap/scss/_utilities-responsive.scss";
 // endbower
-
 @import "common/global";
+@import "components/navigation";
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";
@@ -35,3 +33,5 @@
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
+@import "views/home";
+
