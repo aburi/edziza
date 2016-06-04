@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "16c34402a0f57052417dbdf02635ba9a",
-    "content-hash": "2f2b1ea57b80f3a554c90ae38b8b1509",
+    "hash": "d93847d59127228f320b670e21443dba",
+    "content-hash": "2479ad99282ff2c0c17daed474857a58",
     "packages": [
         {
             "name": "composer/installers",
@@ -107,16 +107,16 @@
         },
         {
             "name": "deliciousbrains/wp-amazon-s3-and-cloudfront",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deliciousbrains/wp-amazon-s3-and-cloudfront.git",
-                "reference": "1a08516aec4bf7e46bfbbc0a5ff62cfbe3b2af51"
+                "reference": "d9f0054be0745b5002d3235193cfd8f83d29d66a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deliciousbrains/wp-amazon-s3-and-cloudfront/zipball/1a08516aec4bf7e46bfbbc0a5ff62cfbe3b2af51",
-                "reference": "1a08516aec4bf7e46bfbbc0a5ff62cfbe3b2af51",
+                "url": "https://api.github.com/repos/deliciousbrains/wp-amazon-s3-and-cloudfront/zipball/d9f0054be0745b5002d3235193cfd8f83d29d66a",
+                "reference": "d9f0054be0745b5002d3235193cfd8f83d29d66a",
                 "shasum": ""
             },
             "require": {
@@ -136,20 +136,20 @@
                 "plugin",
                 "s3"
             ],
-            "time": "2016-03-23 14:09:14"
+            "time": "2016-05-30 12:00:12"
         },
         {
             "name": "deliciousbrains/wp-amazon-web-services",
-            "version": "0.3.5",
+            "version": "0.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deliciousbrains/wp-amazon-web-services.git",
-                "reference": "3f6ae90cd93e17214fabbdeff840cc80c962a3b5"
+                "reference": "14500c7b15294b8b4cba34b87b6c01e6c88a2d4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deliciousbrains/wp-amazon-web-services/zipball/3f6ae90cd93e17214fabbdeff840cc80c962a3b5",
-                "reference": "3f6ae90cd93e17214fabbdeff840cc80c962a3b5",
+                "url": "https://api.github.com/repos/deliciousbrains/wp-amazon-web-services/zipball/14500c7b15294b8b4cba34b87b6c01e6c88a2d4c",
+                "reference": "14500c7b15294b8b4cba34b87b6c01e6c88a2d4c",
                 "shasum": ""
             },
             "require": {
@@ -168,7 +168,7 @@
                 "aws",
                 "plugin"
             ],
-            "time": "2016-03-07 16:44:44"
+            "time": "2016-05-30 11:46:35"
         },
         {
             "name": "deliciousbrains/wp-migrate-db-pro",
@@ -484,16 +484,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.6.0",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "1bcdf03b068a530ac1962ce671dead356eeba43b"
+                "reference": "fb72ed32f8418db5e7770be1653e62e0d6f5dd3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/1bcdf03b068a530ac1962ce671dead356eeba43b",
-                "reference": "1bcdf03b068a530ac1962ce671dead356eeba43b",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/fb72ed32f8418db5e7770be1653e62e0d6f5dd3d",
+                "reference": "fb72ed32f8418db5e7770be1653e62e0d6f5dd3d",
                 "shasum": ""
             },
             "require": {
@@ -558,7 +558,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-04-03 22:58:34"
+            "time": "2016-05-30 22:24:32"
         }
     ],
     "aliases": [],
