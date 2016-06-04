@@ -21,6 +21,17 @@ if (file_exists($root_dir . '/.env')) {
 }
 
 /**
+ * Needed for WordPress Stage Switcher plugin
+ * https://github.com/roots/wp-stage-switcher
+ */
+$envs = [
+  'development' => 'http://www.edziza.dev',
+//  'staging'     => 'http://www.edziza.com',
+  'production'  => 'http://www.edziza.com'
+];
+define('ENVIRONMENTS', serialize($envs));
+
+/**
  * Set up our global environment constant and load its config first
  * Default: development
  */
