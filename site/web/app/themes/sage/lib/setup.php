@@ -15,6 +15,7 @@ function setup() {
   add_theme_support( 'soil-nice-search' );
   add_theme_support( 'soil-jquery-cdn' );
   add_theme_support( 'soil-relative-urls' );
+  add_theme_support( 'soil-js-to-footer' );
   //todo-me: below is for dev; need to add tracking code for production
   add_theme_support( 'soil-google-analytics', 'UA-78525647-2' );
 
